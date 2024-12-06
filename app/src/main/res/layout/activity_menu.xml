@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matemáticas Financieras"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ED1818"
+            android:id="@+id/IS"
+            android:text="Interés Simple"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:id="@+id/De"
+            android:text="Descuento Simple"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E69428"
+            android:id="@+id/IC"
+            android:text="Interés Compuesto"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#129E5A"
+            android:id="@+id/An"
+            android:text="Anualidades"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AD09C8"
+            android:id="@+id/Am"
+            android:text="Amortización"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

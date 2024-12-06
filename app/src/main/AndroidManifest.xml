@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MateFinanc"
+        tools:targetApi="31">
+        <activity
+            android:name=".TasaEq"
+            android:exported="false" />
+        <activity
+            android:name=".Amort"
+            android:exported="false" />
+        <activity
+            android:name=".Monto_IC"
+            android:exported="false" />
+        <activity
+            android:name=".Capital_IC"
+            android:exported="false" />
+        <activity
+            android:name=".des_intereses"
+            android:exported="false" />
+        <activity
+            android:name=".des_ValCom"
+            android:exported="false" />
+        <activity
+            android:name=".des_tasa_des"
+            android:exported="false" />
+        <activity
+            android:name=".des_desc"
+            android:exported="false" />
+        <activity
+            android:name=".des_plazo_ant"
+            android:exported="false" />
+        <activity
+            android:name=".capital"
+            android:exported="false" />
+        <activity
+            android:name=".des_monto"
+            android:exported="false" />
+        <activity
+            android:name=".des_si"
+            android:exported="false" />
+        <activity
+            android:name=".AN_Numero_de_rentas"
+            android:exported="false" />
+        <activity
+            android:name=".anual_renta"
+            android:exported="false" />
+        <activity
+            android:name=".anual_monto"
+            android:exported="false" />
+        <activity
+            android:name=".menu_anualidades"
+            android:exported="false" />
+        <activity
+            android:name=".IC_interes"
+            android:exported="false" />
+        <activity
+            android:name=".IC_Peri"
+            android:exported="false" />
+        <activity
+            android:name=".IC_plazo"
+            android:exported="false" />
+        <activity
+            android:name=".IC_TazaInteres"
+            android:exported="false" />
+        <activity
+            android:name=".IC_monto"
+            android:exported="false" />
+        <activity
+            android:name=".IC_capital"
+            android:exported="false" />
+        <activity
+            android:name=".IntComp"
+            android:exported="false" />
+        <activity
+            android:name=".is_interes"
+            android:exported="false" />
+        <activity
+            android:name=".IS_Plazo"
+            android:exported="false" />
+        <activity
+            android:name=".is_tasa_interes"
+            android:exported="false" />
+        <activity
+            android:name=".IS_Monto"
+            android:exported="false" />
+        <activity
+            android:name=".IS_Capital"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".IntSim"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
